@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/rejs-toggle-dark-light/static/css/main.0a6a3d7f.css",
+    "main.js": "/rejs-toggle-dark-light/static/js/main.cb4e8406.js",
+    "index.html": "/rejs-toggle-dark-light/index.html",
+    "main.0a6a3d7f.css.map": "/rejs-toggle-dark-light/static/css/main.0a6a3d7f.css.map",
+    "main.cb4e8406.js.map": "/rejs-toggle-dark-light/static/js/main.cb4e8406.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0a6a3d7f.css",
+    "static/js/main.cb4e8406.js"
+  ]
+}
