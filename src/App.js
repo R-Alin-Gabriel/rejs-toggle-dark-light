@@ -6,13 +6,6 @@ function App() {
  const [theme, setTheme] = useLocalStorage('theme' ? "dark" : "light")
  const switchTheme = () =>{
    const newTheme = theme === "light" ? "dark" : "light"
-   const x = document.getElementById('demo')
-   if (x.innerHTML === "Light Theme"){
-     x.innerHTML = "Dark Theme"
-   }else {
-     x.innerHTML ="Light Theme"
-   }
-
    setTheme(newTheme)
  }
  
@@ -49,7 +42,6 @@ function App() {
           <p className='create' >Crate Account</p>
         </div>
         <div className="theme-toggle">
-          <h2 id="demo">Light Theme</h2>
           <i onClick={switchTheme}  className='fas fa-toggle-on' ></i>
         </div>
       </div>
